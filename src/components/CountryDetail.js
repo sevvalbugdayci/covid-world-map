@@ -17,9 +17,6 @@ const CountryDetail = () => {
   const selectedCountry = countryData && countryData.find(country => country.country === countryName);
 
 
-  console.log(countryData)
-
-
   return (
     <div className="country-detail">
       <h2>{countryName} Details</h2>

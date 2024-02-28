@@ -22,7 +22,6 @@ function WorldMap({}) {
 
   const handleRegionClick = (event) => {
     const countryName = event.target.getAttribute('title');
-    console.log("Tıklanan Ülke Kodu:", countryName);
     if(countryName) {
       navigate(`/country/${countryName}`);
     }
